@@ -1,0 +1,27 @@
+{
+  "source_file": "horror-globe.html",
+  "source_sha256": "dc4092285646bb9ec00a1606aeb56a45d5286b2613a5933c1f275fdaaac17c1b",
+  "source_map_credit": "Natural Earth (credit in supplied HTML)",
+  "extraction": "Film data and Natural Earth TopoJSON extracted without executing supplied page scripts. Geography rasterized offline into equirectangular textures; no D3, TopoJSON, remote font, OrbitControls or duplicate Three renderer required.",
+  "data_entries": 200,
+  "book_covers_exact_title_year_matches": 52,
+  "film_content_verification": "User-supplied film/location/visiting content retained; not independently fact-checked. Visiting status is source content, not current travel guidance.",
+  "poster_fields": "All 200 source poster fields are blank. bookCover uses the existing library asset only for exact title + year matches.",
+  "map_raster_pixels": [
+    [
+      4096,
+      2048
+    ],
+    [
+      2048,
+      1024
+    ],
+    [
+      1024,
+      512
+    ]
+  ],
+  "map_detail": "Rasterized from supplied vector map. The 4096 export is map rendering resolution, not photographic Earth detail.",
+  "map_style": "Blue oceans, parchment country tint, graticule, country boundaries and internal US state boundaries. Antarctica excluded to match source rendering.",
+  "sphere_uv": "Three SphereGeometry; x=cos(latitude)*cos(longitude), y=sin(latitude), z=-cos(latitude)*sin(longitude). Texture x=(longitude+180)/360; y=(90-latitude)/180."
+}
